@@ -1,23 +1,5 @@
-esphome:
-  name: wr-halle1
-  friendly_name: wr-halle1
-esp32:
-  board: esp32dev
-  framework:
-    type: arduino
-# Enable logging
-logger:
-# Enable Home Assistant API
-api:
-  encryption:
-    key: "### Dein Key ####"
-ota:
-  - platform: esphome
-    password: "### Dein Passwort ####"
-wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
-  # Enable fallback hotspot (captive portal) in case wifi connection fails
+
+
 captive_portal:
 
 uart:

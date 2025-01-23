@@ -1,0 +1,16 @@
+Verkabelung
+• Verbinden Sie den ESP RX-Pin mit dem RX des RS485-Moduls
+• Verbinden Sie den ESP TX-Pin mit dem TX des RS485-Moduls
+• Verbinden Sie den A-Pin des RS485-Moduls mit dem freien Modbus-A-Pin am COM-Port Ihres Wechselrichters (Pin 1)
+• Verbinden Sie den B-Pin des RS485-Moduls mit dem freien Modbus-B-Pin am COM-Port Ihres Wechselrichters (Pin 2)
+• Wenn Sie ein abgeschirmtes Kabel verwenden, wird dringend empfohlen, die Abschirmung NUR AUF EINER SEITE an GND anzuschließen
+
+Schauen Sie im Handbuch Ihres Wechselrichters nach, um den COM-Port zu finden. Die Pinnummern sind im Port selbst sichtbar.
+
+Pinbelegung Stecker Wechselrichter
+A+ -> 1
+B- -> 3
+
+Benötigte Hardware:
+https://www.makershop.de/module/kommunikation-module/ttl-rs485-adapter/
+https://www.makershop.de/plattformen/nodemcu/esp32-board-stiftleisten/

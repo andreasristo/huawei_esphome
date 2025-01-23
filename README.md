@@ -20,5 +20,9 @@ B-  - 3
 | Anschluss der Datenleitung am TTL-Adapter | <img src="https://github.com/user-attachments/assets/7e676fcf-7178-4bac-9573-4a939a976547" width="280px">   |
 | Anschluss der Datenleitung am TTL Adapter zum ESP32 | <img src="https://github.com/user-attachments/assets/cc5942c7-cd3a-412c-b93a-5fc789122135" width="280px">   |
 | Anschluss am ESP32 | <img src="https://github.com/user-attachments/assets/6f3fd278-b226-4355-ba96-ed46ca7e7192" width="280px">   |
-| --- | --- |
 
+
+
+Im Homeassistant -> ESPHome ein neues Gerät hinzufügen und folgende Einstelleungen hinterlegen:
+
+config.yml

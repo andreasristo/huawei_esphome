@@ -26,3 +26,5 @@ B-  - 3
 Im Homeassistant -> ESPHome ein neues Gerät hinzufügen und folgende Einstelleungen hinterlegen:
 
 config.yml
+
+Schaltplan ist angefügt
